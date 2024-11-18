@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style3.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+
+  <svg class="fire" width="1200" height="500">
+
+
+    <defs>
+      <mask id="maskingwater" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse">
+
+        <text x="600" y="400" font-family="Arial" font-size="300" fill="white" text-anchor="middle">
+          Вода
+        </text>
+
+
+        <text x="600" y="400" font-family="Arial" font-size="300" fill="none" text-anchor="middle"
+          stroke="rgb(110, 199, 240)" stroke-width="10" stroke-opacity="0.9">
+          Вода
+        </text>
+
+      </mask>
+    </defs>
+
+
+    <text x="600" y="400" font-family="Arial" font-size="300" fill="" text-anchor="middle" stroke-width="25"
+      stroke="rgb(58, 180, 236)">
+      Вода
+    </text>
+    <image href="./img/TL80.gif" x="0" y="0" width="90%" mask="url(#maskingwater)" />
+  </svg>
+
+
+  <svg class="fire" width="1200" height="400">
+
+
+    <defs>
+      <mask id="maskingtext" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse">
+
+        <text x="600" y="250" font-family="Spicy Rice" font-size="300" fill="none" text-anchor="middle"
+          stroke="rgb(93, 231, 247)" stroke-width="10">
+          VS
+        </text>
+
+      </mask>
+    </defs>
+
+
+    <text x="600" y="250" font-family="Spicy Rice" font-size="200" fill="none" text-anchor="middle" stroke-width="15"
+      stroke="rgb(214, 211, 211)" url(#maskingtext)>
+      VS
+    </text>
+
+  </svg>
+
+
+  <svg class="fire" width="1200" height="500">
+
+
+    <defs>
+      <mask id="maskingfire" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse">
+        <text x="600" y="250" font-family="Arial" font-size="300" fill="white" text-anchor="middle">
+          Огонь
+        </text>
+
+        <text x="600" y="250" font-family="Arial" font-size="300" fill="none" text-anchor="middle"
+          stroke="rgb(93, 231, 247)" stroke-width="10" stroke-opacity="0.9">
+          Огонь
+        </text>
+
+      </mask>
+    </defs>
+
+
+    <text x="600" y="250" font-family="Arial" font-size="300" fill="none" text-anchor="middle" stroke-width="25"
+      stroke="rgb(61, 16, 16)">
+      Огонь
+    </text>
+    <image href="./img/4p27.gif" x="0" y="0" width="90%" mask="url(#maskingfire)" />
+  </svg>
+
+
+
+
+
+
+</body>
+
+</html>

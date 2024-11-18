@@ -1,0 +1,16 @@
+
+.header{
+    display: block;
+    margin: 0 auto;
+    width: 500px; 
+    height: 200px;
+}
+.tv{
+    display: block;
+
+    width: 400px;
+    height: 350px;
+    margin: 0 auto;
+    color: rgb(245, 207, 39);
+}
+
